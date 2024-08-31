@@ -900,3 +900,30 @@
 /*** copyright end ***/
 
 
+.services {
+    background: url(../images/banner4.jpg) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.over-lay-blue {
+    background: rgba(10, 10, 10, 0.67);
+}
+
+.services-grid-inf h4,
+.services-grid-inf span,
+.services-grid-inf .link-hny,
+.services-innfo p.sub-tittle {
+    color: #fff;
+}
+
+.services-grid-inf p {
+    color: #d5d7d8;
+}
+
+.services-grid-inf span {
+    line-height: 40px;
+}
