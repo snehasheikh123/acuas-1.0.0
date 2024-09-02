@@ -27,6 +27,110 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #444;
+            border-bottom: 3px solid #1abc9c;
+            padding-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .department {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .department:last-child {
+            border-bottom: none;
+        }
+        
+        h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        p {
+            line-height: 1.8;
+            font-size: 1.2em;
+            color: #555;
+        }
+        
+        .with-image .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .with-image img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .with-image .content {
+                text-align: center;
+            }
+        
+            .with-image img {
+                margin: 20px 0;
+                width: 100%;
+            }
+        
+            h3 {
+                font-size: 1.8em;
+            }
+        
+            p {
+                font-size: 1.1em;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 1.8em;
+            }
+        
+            h3 {
+                font-size: 1.5em;
+            }
+        
+            p {
+                font-size: 1em;
+            }
+        
+            .with-image img {
+                width: 100%;
+            }
+        }
+        
+
+
+        </style>
     </head>
 
     <body>
@@ -197,62 +301,41 @@
         </div> -->
         <!-- feature End -->
 
-
-        <!-- About Start -->
-        <div class="container-fluid about overflow-hidden py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="about-img rounded h-100">
-                            <img src="img/about.jpg" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
-                            <!-- <div class="about-exp"><span>20 Years Experiance</span></div> -->
+       
+            <main>
+                <section class="departments">
+                    <h2>Other Departments at Jamia</h2>
+        
+                    <div class="department">
+                        <h3>Darul Ifta</h3>
+                        <p>For the religious guidance of the Muslim masses in every-day problems, the Jamia has established the Darul-Ifta. The Darul-Ifta offers solutions to the queries of the Muslims in the light of the Islamic Shariat.</p>
+                    </div>
+        
+                    <div class="department with-image">
+                        <h3>Matbakh (Kitchen System)</h3>
+                        <div class="content">
+                            <p>Since the Jamia is a residential institution of religious learning, it has a well-managed kitchen system responsible for the preparation and provision of food for a number of three hundred odd hostler students and the members of the teaching and non-teaching staff. The food, lodging, and education are provided free of cost. Also, the Jamia offers monthly stipends to the ready students as well.</p>
+                            <img src="https://via.placeholder.com/400" alt="Matbakh">
                         </div>
                     </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="about-item">
-                            <h4 class="text-primary text-uppercase">About Us</h4>
-                            <h1 class="display-3 mb-3">Welcome to Junoon</h1>
-                            <p class="mb-4"> The leading platform for professional networking and business growth. Our mission is to empower professionals and organizations across industries by facilitating meaningful connections, fostering collaboration, and providing access to valuable resources that drive success.
-                            </p>
-                            <div class="bg-light rounded p-4 mb-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="pe-4">
-                                                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-tint text-white fa-2x"></i></div>
-                                            </div>
-                                            <div class="">
-                                                <a href="#" class="h4 d-inline-block mb-3">Who We Are</a>
-                                                <p class="mb-0">Junoon was created to address the evolving needs of modern professionals. We understand that in today’s fast-paced and interconnected world, success is built on strong, diverse networks and continuous professional development. Our platform is designed to be the nexus where innovation meets opportunity, enabling professionals to connect, collaborate, and thrive.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-light rounded p-4 mb-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="pe-4">
-                                                <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-faucet text-white fa-2x"></i></div>
-                                            </div>
-                                            <div class="">
-                                                <a href="#" class="h4 d-inline-block mb-3">Our Purpose</a>
-                                                <p class="mb-0">At Junoon, we are dedicated to supporting the entire spectrum of professional growth. Whether you are an emerging talent, a seasoned expert, or a business leader, our platform offers tailored solutions to help you achieve your goals. We provide a dynamic environment where users can expand their networks, access industry-specific insights, and engage with opportunities that drive career advancement and business success.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="#" class="btn btn-secondary rounded-pill py-3 px-5">Read More</a>
+        
+                    <div class="department with-image">
+                        <h3>Tahzibul-Bayan</h3>
+                        <div class="content">
+                            <p>In order to prepare the students for a better service of the Muslim Community and the country at large, and to improve and sharpen their literary taste, the Jamia has established the Anjuman Tahzeebul Bayan. Under the care of the Anjuman, the students take part in weekly programs of orations in Urdu, Arabic, Persian, English Languages, verse-recitation, Naat (Praising the Holy Prophet in verse), and Quranic and Hadith words of God-remembrance. The Anjuman also holds its yearly cultural and informative programs in which the students of the Jamia are given opportunities to demonstrate their writing and orational capabilities before the general Muslims attending the programs.</p>
+                            <img src="https://via.placeholder.com/400" alt="Tahzibul-Bayan">
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
+        
+                    <div class="department">
+                        <h3>Imdadul Muslimin</h3>
+                        <p>This department is intended to solve the financial problems of the needy Muslims and widows. It offers monthly assistance to a number of poor, disabled, and indigent local Muslims and widows. It also offers assistance, within the range of its limited scope of means, at the occasion of the marriage of poor Muslim girls. This department is proving very useful for general Muslims.</p>
+                    </div>
+                </section>
+            </main>
+        
+        
+        
         <!-- Fact Counter -->
         <div class="container-fluid counter py-5">
             <div class="container py-5">
